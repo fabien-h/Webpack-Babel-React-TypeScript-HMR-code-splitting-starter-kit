@@ -12,4 +12,4 @@ You can clone this repository and use it as a starter kit for single page applic
     // Build for production to /dist
     npm run build
 
-If you want to understand better, You can also follow the
+If you want to understand better, You can also follow the [tutorial over here](https://blog.wax-o.com/2019/08/webpack-loaders-babel-sourcemaps-react-hot-module-reload-typescript-modules-code-splitting-and-lazy-loading-full-tutorial-to-transpile-and-bundle-your-code/).
