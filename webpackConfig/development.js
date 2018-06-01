@@ -39,7 +39,7 @@ function buildDevelopementConfig(env, dirname) {
                     modules: false,
                     debug: true,
                     target: {
-                      browsers: ['cover 99%']
+                      browsers: ['> 0.5%']
                     }
                   }
                 ],
