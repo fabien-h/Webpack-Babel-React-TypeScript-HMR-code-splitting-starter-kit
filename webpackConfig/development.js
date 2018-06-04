@@ -14,7 +14,11 @@ function buildDevelopementConfig(env, dirname) {
     },
     mode: 'development',
     resolve: {
-      extensions: ['.js', '.json', '.ts', '.jsx', '.tsx']
+      extensions: ['.js', '.json', '.ts', '.jsx', '.tsx'],
+      alias: {
+        UiComponents: dirname + '/src/UiComponents',
+        UiAssets: dirname + '/src/UiAssets'
+      }
     },
     devServer: {
       host: '0.0.0.0',

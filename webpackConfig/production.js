@@ -18,7 +18,11 @@ function buildProductionConfig(env, dirname) {
     },
     mode: 'production',
     resolve: {
-      extensions: ['.js', '.json', '.ts', '.jsx', '.tsx']
+      extensions: ['.js', '.json', '.ts', '.jsx', '.tsx'],
+      alias: {
+        UiComponents: dirname + '/src/UiComponents',
+        UiAssets: dirname + '/src/UiAssets'
+      }
     },
     module: {
       rules: [
